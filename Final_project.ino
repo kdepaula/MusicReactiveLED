@@ -90,7 +90,7 @@ void loop()
   
   else
   {
-    if (pValue < 900) {
+    if (pValue < 700) {
       analogWrite(red, redValue);
       analogWrite(blue, blueValue);
       analogWrite(green, greenValue);
